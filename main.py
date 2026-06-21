@@ -10,7 +10,7 @@ import requests
 from datetime import datetime 
   
  # ====================== NEW: PHISHBERT AI IMPORTS ====================== 
- from transformers import pipeline 
+from transformers import pipeline 
   
  print("Loading AI Model...") 
  classifier = pipeline( 
