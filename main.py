@@ -1,19 +1,13 @@
-""" 
- BharatCyber EduShield - AI-Powered Cybersecurity Education Platform 
- Enhanced with Hugging Face Transformers for Phishing Detection 
- Production-Grade Backend with Full Error Handling 
- """ 
-  
- from fastapi import FastAPI, HTTPException, Query 
- from fastapi.middleware.cors import CORSMiddleware 
- from pydantic import BaseModel, Field, validator 
- from typing import Optional, List, Dict, Any 
- import re 
- import os 
- import logging 
- import time 
- import requests 
- from datetime import datetime 
+from fastapi import FastAPI, HTTPException, Query 
+from fastapi.middleware.cors import CORSMiddleware 
+from pydantic import BaseModel, Field, validator 
+from typing import Optional, List, Dict, Any 
+import re 
+import os 
+import logging 
+import time 
+import requests 
+from datetime import datetime 
   
  # ====================== NEW: PHISHBERT AI IMPORTS ====================== 
  from transformers import pipeline 
