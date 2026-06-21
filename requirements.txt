@@ -8,7 +8,7 @@ gunicorn==21.2.0
 
 # AI Model Dependencies
 transformers==4.41.2
-torch==2.3.1
+torch>=2.9.0
 accelerate==0.31.0
 
 # Optional production dependencies
